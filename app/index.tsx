@@ -1,4 +1,4 @@
-import Tugas2 from "@/components/Tugas2";
+import LoginScreen from "@/components/Tugas3";
 import { View } from "react-native";
 
 export default function Index() {
@@ -6,9 +6,11 @@ export default function Index() {
     <View
       style={{
         flex: 1,
+        justifyContent: "center",
+        alignItems: "center",
       }}
     >
-      <Tugas2 />
+      <LoginScreen />
       {/* <Text>Welcome, Diqy 👋</Text> */}
     </View>
   );
