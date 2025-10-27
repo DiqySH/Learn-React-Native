@@ -1,15 +1,15 @@
-import { Text, View } from "react-native";
+import Tugas2 from "@/components/Tugas2";
+import { View } from "react-native";
 
 export default function Index() {
   return (
     <View
       style={{
         flex: 1,
-        justifyContent: "center",
-        alignItems: "center",
       }}
     >
-      <Text>Welcome, Diqy 👋</Text>
+      <Tugas2 />
+      {/* <Text>Welcome, Diqy 👋</Text> */}
     </View>
   );
 }
