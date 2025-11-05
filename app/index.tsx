@@ -1,17 +1,19 @@
-import LoginScreen from "@/components/Tugas3";
-import { View } from "react-native";
+// import DetailScreen from "@/component/latihan/detailScreen";
+import HomeScreen from "@/component/latihan/homeScreen";
+import React from "react";
 
 export default function Index() {
+  // const [nama, setNama] = useState("somra");
   return (
-    <View
-      style={{
-        flex: 1,
-        justifyContent: "center",
-        alignItems: "center",
-      }}
-    >
-      <LoginScreen />
-      {/* <Text>Welcome, Diqy 👋</Text> */}
-    </View>
+    <>
+      {/* <LoginScreen /> */}
+      {/* <Latihan1 /> */}
+      {/* <Latihan2 />
+      <Latihan3 />
+      <Latihan4 /> */}
+
+      <HomeScreen />
+      {/* <DetailScreen /> */}
+    </>
   );
 }
